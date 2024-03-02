@@ -15,6 +15,7 @@
         for (let i = nDigits - 1; i >= 0; i--)
         {
             let d = cardNo[i].charCodeAt() - '0'.charCodeAt();
+            console.log(d);
             if (isSecond == true)
             d = d * 2;
             nSum += parseInt(d / 10, 10);
